@@ -1,12 +1,3 @@
-# 堡垒机参数
-
-```
-https://blj.cofco.com
-10.6.128.189
-sysadm  
-6uUTmZFN$rOG
-```
-
 # OLTP 与 OLAP
 
 ## 概念
