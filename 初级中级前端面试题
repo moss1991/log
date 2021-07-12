@@ -1,0 +1,214 @@
+# 2021年中粮信息科技有限公司前端面试题（一面）
+
+
+### 1.简单介绍css3，html5
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 2.尽可能多的实现css水平、垂直居中
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 3. 1rem、1em、1vh、1px各自代表的含义
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 4.请列举一下你常用的es6语法
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+### 5.请写出下面代码执行的的结果
+
+```
+var a = 1;
+(function foo() {
+    a = 2;
+    console.log(a);
+})();
+```
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+### 6.请写出下面代码执行的的结果
+```
+const first = () => (new Promise((resolve, reject) => {
+    console.log(3);
+    let p = new Promise((resolve, reject) => {
+        console.log(7);
+        setTimeout(() => {
+            console.log(5);
+            resolve(6);
+            console.log(p)
+        }, 0)
+        resolve(1);
+    });
+    resolve(2);
+    p.then((arg) => {
+        console.log(arg);
+    });
+}));
+first().then((arg) => {
+    console.log(arg);
+});
+console.log(4);
+```
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 7.请补全代码，使用原型链
+
+需求：共享变量是个数组，person1使用数组的push方法放入1，person2使用数组的push方法放入2，最后打印出来person2的变量，显示为[1,2]
+```
+function Person(name){
+    this.name=name;
+}
+ 
+//创建共享变量
+//code here
+
+
+
+
+//end here 
+
+Person.prototype.printName=function(){
+    alert(this.name);
+}
+ 
+var person1=new Person('Byron');
+var person2=new Person('Frank');
+
+// 给共享变量赋值和打印
+//code here
+
+
+
+
+//end here 
+```
+
+
+### 8.请简述 react diff 的原理
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 9.开发一个组件的大致流程（包含生命周期）
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 10.React 组件通信方式
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 11.数据如何通过 Redux 流动
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 12.请介绍一下你 hook 的使用经验
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+### 13.React 项目实际开发中都做过哪些性能优化
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+### 14.webpack 做过哪些优化，开发效率方面、打包策略方面
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 15.说一下 Http 缓存策略，有什么区别，分别解决了什么问题
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 16.介绍防抖节流原理、区别以及应用，并用JavaScript进行实现
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+### 17.请简述session、cookie、localstorage的理解
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 18.什么是浅拷贝，什么是深拷贝，如何实现深拷贝
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 19.描述一下页面加载过程
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+### 20.列举一些你常用的插件，介绍一下你职业生涯中的高光时刻
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
